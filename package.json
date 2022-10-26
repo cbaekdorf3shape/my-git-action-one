@@ -1,0 +1,23 @@
+{
+  "name": "my-git-action-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbaekdorf3shape/my-git-action-one.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbaekdorf3shape/my-git-action-one/issues"
+  },
+  "homepage": "https://github.com/cbaekdorf3shape/my-git-action-one#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
+}

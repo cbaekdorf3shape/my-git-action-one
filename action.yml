@@ -1,0 +1,7 @@
+name: 'My GIT Action One'
+description: 'Just a test action'
+author: 'CB'
+
+runs:
+  using: 'node18'
+  main: 'dist/index.js'
