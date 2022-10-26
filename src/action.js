@@ -5,4 +5,13 @@ async function run() {
     console.log('Hello from my git action one! v2');
 }
 
-run();
+try {
+    run();
+    // Get the JSON webhook payload for the event that triggered the workflow
+    const payload = JSON.stringify(github.context.payload, undefined, 2)
+    console.log(`The event payload: ${payload}`);
+}
+catch (error)
+{
+    core.setFailed(error.message);
+}
