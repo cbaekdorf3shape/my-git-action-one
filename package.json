@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/cbaekdorf3shape/my-git-action-one#readme",
   "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
     "@vercel/ncc": "^0.34.0"
   }
 }
